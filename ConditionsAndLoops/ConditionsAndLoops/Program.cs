@@ -16,19 +16,81 @@
 
 
 		//2
-		int a = 13;
-		int count = 0;
-		for(int i=2; i<a/2; i++)
-		{
-			if (a % i == 0)
-				count++;
-		}
-		if(count>0)
-			Console.WriteLine("Murekkeebdir");
-		else
-			Console.WriteLine("Sadedir");
+		//int a = 13;
+		//int count = 0;
+		//for(int i=2; i<a/2; i++)
+		//{
+		//	if (a % i == 0)
+		//		count++;
+		//}
+		//if(count>0)
+		//	Console.WriteLine("Murekkeebdir");
+		//else
+		//	Console.WriteLine("Sadedir");
+
+
+		//3
+		//int a = 5641;
+		//int mertebe;
+		//while (a > 0){
+		//	mertebe = a % 10;
+		//	Console.WriteLine($"Mertebeler: {mertebe}");
+		//	a /= 10;
+		//}
+
+
+		//4
+		//int a = 8;
+
+		//for (int i=0; ;i++) { 
+
+
+		//}
+
+
+		//5
+		//int m = 54;
+		//int count = 0;
+		//for(int i=1; i < m; i++)
+		//{
+		//	if (i % 3 == 0)
+		//		count++; 
+		//}
+		//Console.WriteLine(count);
+
+
+		//6
+		//int num=6;
+		//for(int i = 1; i <= num; i++)
+		//{
+		//	if(num%i==0)
+		//		Console.Write(i+" ");
+		//}
+
+
+		//7
 
 
 
+		//8
+
+
+		//9
+
+
+
+
+		//10
+		//int x =5;
+		//int y =5;
+		//int z =5;
+		//if(x==y && y==z)
+		//	Console.WriteLine("her biri beraberdir");
+		//else if(x<=y && x<=z)
+		//	Console.WriteLine("en kicik xdir");
+		//else if (y <= x && y <= z)
+		//	Console.WriteLine("en kicik ydir");
+		//else
+		//	Console.WriteLine("en kicik zdir");
 	}
 }
