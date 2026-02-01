@@ -1,12 +1,13 @@
-﻿internal class Program
+﻿using System.ComponentModel;
+
+internal class Program
 {
 	private static void Main(string[] args)
 	{
 		//1
 		//int a = 0;
 		//int b = 100;
-		//int sum = 0;
-
+		//int sum = 0
 		//for (int i = a; i < b; i++)
 		//{
 		//	if (i % 2 == 0)
@@ -16,14 +17,17 @@
 
 
 		//2
-		//int a = 13;
+		//int a = 29;
 		//int count = 0;
-		//for(int i=2; i<a/2; i++)
+		//for (int i = 2; i < a / 2; i++)
 		//{
 		//	if (a % i == 0)
+		//	{
 		//		count++;
+		//		break;
+		//	}
 		//}
-		//if(count>0)
+		//if (count > 0)
 		//	Console.WriteLine("Murekkeebdir");
 		//else
 		//	Console.WriteLine("Sadedir");
@@ -40,12 +44,20 @@
 
 
 		//4
-		//int a = 8;
-
-		//for (int i=0; ;i++) { 
-		//
-		//
+		//int a = Convert.ToInt32(Console.ReadLine());
+		//bool quvvetir = true;
+		//while (a > 1)
+		//{
+		//	if (a % 2 == 1)
+		//	{
+		//		Console.WriteLine("Quvveti deyil");
+		//		quvvetir = false;
+		//		break;
+		//	}
+		//	a /= 2;
 		//}
+		//if (quvvetir)
+		//	Console.WriteLine("Quvvetidir");
 
 
 		//5
@@ -69,38 +81,55 @@
 
 
 		//7
-
+		//int x = 5;
+		//int y = 17;
+		//int ebob = -1;
+		//for (int i = 2; i <= x; i++)//bütün rəqəmlər 1ə bölündüyü üçün i=2 yazmışam
+		//{
+		//	if (y % i == 0)
+		//		ebob = i;
+		//}
+		//Console.WriteLine(ebob);
 
 
 		//8
-		int n=2315;
-		int lastNumber;
-		int multiple=1;
-		while (n > 0)
-		{
-			lastNumber = n % 10;
-			n /= 10;
-			multiple *= lastNumber;
-		}
-		Console.WriteLine(multiple);
+		//int n=2315;
+		//int lastNumber;
+		//int multiple=1;
+		//while (n > 0)
+		//{
+		//	lastNumber = n % 10;
+		//	n /= 10;
+		//	multiple *= lastNumber;
+		//}
+		//Console.WriteLine(multiple);
 
 
 		//9
-
-
+		//int mehsul1 = 20;
+		//int mehsul2 = 40;
+		//int mehsul3 = 50;
+		//if (mehsul1 == mehsul2 && mehsul2 == mehsul3)
+		//	Console.WriteLine(mehsul1 + mehsul2);
+		//else if (mehsul1 <= mehsul2 && mehsul1 <= mehsul3)
+		//	Console.WriteLine(mehsul2 + mehsul3);
+		//else if (mehsul2 <= mehsul1 && mehsul2 <= mehsul3)
+		//	Console.WriteLine(mehsul1 + mehsul3);
+		//else
+		//	Console.WriteLine(mehsul1 + mehsul2);
 
 
 		//10
-		//int x =5;
-		//int y =5;
-		//int z =5;
-		//if(x==y && y==z)
+		//int x = 9;
+		//int y = 51;
+		//int z = 6;
+		//if (x == y && y == z)
 		//	Console.WriteLine("her biri beraberdir");
-		//else if(x<=y && x<=z)
-		//	Console.WriteLine("en kicik xdir");
+		//else if (x <= y && x <= z)
+		//	Console.WriteLine("en kicik x-dir");
 		//else if (y <= x && y <= z)
-		//	Console.WriteLine("en kicik ydir");
+		//	Console.WriteLine("en kicik y-dir");
 		//else
-		//	Console.WriteLine("en kicik zdir");
+		//	Console.WriteLine("en kicik z-dir");
 	}
 }
