@@ -43,8 +43,8 @@
 		//int a = 8;
 
 		//for (int i=0; ;i++) { 
-
-
+		//
+		//
 		//}
 
 
@@ -73,6 +73,16 @@
 
 
 		//8
+		int n=2315;
+		int lastNumber;
+		int multiple=1;
+		while (n > 0)
+		{
+			lastNumber = n % 10;
+			n /= 10;
+			multiple *= lastNumber;
+		}
+		Console.WriteLine(multiple);
 
 
 		//9
